@@ -6,12 +6,11 @@
   "license": "Apache",
   "type": "module",
   "files": [
-    "test.mjs",
-    "test.mjs.map",
-    "test.d.ts"
+    "dist/index.mjs",
+    "types/index.d.ts"
   ],
-  "module": "test.mjs",
-  "types": "test.d.ts",
+  "module": "dist/index.mjs",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
