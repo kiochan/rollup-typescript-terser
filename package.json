@@ -8,7 +8,7 @@
       "email" : "kiochan@kiochan.com",
       "url" : "https://github.com/kiochan"
   },
-  "license": "Apache",
+  "license": "MIT",
   "type": "module",
   "files": [
     "dist/index.mjs",
