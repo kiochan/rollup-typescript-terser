@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "Apache",
+  "type": "module",
+  "files": [
+    "test.mjs",
+    "test.mjs.map",
+    "test.d.ts"
+  ],
+  "module": "test.mjs",
+  "types": "test.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@rollup/plugin-terser": "^0.2.0",
+    "rollup": "^3.6.0",
+    "rollup-plugin-dts": "^5.0.0"
+  }
+}
