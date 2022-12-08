@@ -2,8 +2,12 @@
   "private": true,
   "name": "rollup-typescript-terser",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "a demo of rollup + typescript + terser",
+  "author": {
+      "name" : "Kiochan",
+      "email" : "kiochan@kiochan.com",
+      "url" : "https://github.com/kiochan"
+  },
   "license": "Apache",
   "type": "module",
   "files": [
