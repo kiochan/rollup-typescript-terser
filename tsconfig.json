@@ -5,10 +5,7 @@
         "moduleResolution": "node",
         "lib": ["esnext", "dom"],
         "strict": false,
-        "declaration": true,
-        "sourceMap": true,
         "outDir": "dist"
     },
-    "include": ["src", "index.ts"],
-    "exclude": ["node_modules", "dist"]
+    "include": ["src/**/*"]
 }
